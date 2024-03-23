@@ -67,7 +67,8 @@ async function doAppFunction(){
 
 
 // 매일 오전 11시에 작업 스케줄링 (한국 시간대 기준)
-schedule.scheduleJob('0 0 11 * * 1-5', async function() {
+/*schedule.scheduleJob('0 0 11 * * 1-5', async function() {
     doAppFunction();
-});
+});*/
 
+doAppFunction();
